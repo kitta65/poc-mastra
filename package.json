@@ -1,36 +1,8 @@
 {
-  "name": "poc-mastra",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "mastra dev",
-    "build": "mastra build",
-    "start": "mastra start",
     "fix": "prettier --write ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.26.2",
-  "type": "module",
-  "engines": {
-    "node": ">=22.13.0"
-  },
-  "dependencies": {
-    "@mastra/core": "1.0.0-beta.18",
-    "@mastra/evals": "1.0.0-beta.3",
-    "@mastra/libsql": "1.0.0-beta.10",
-    "@mastra/loggers": "1.0.0-beta.3",
-    "@mastra/memory": "1.0.0-beta.9",
-    "@mastra/observability": "1.0.0-beta.9",
-    "zod": "^4.2.1"
-  },
   "devDependencies": {
-    "@types/node": "^25.0.3",
-    "mastra": "1.0.0-beta.12",
-    "prettier": "^3.7.4",
-    "typescript": "^5.9.3"
+    "prettier": "^3.7.4"
   }
 }
